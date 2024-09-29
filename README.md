@@ -6,8 +6,12 @@
    - YOLO
    - Matplotlib
   
-2. Download the `https://drive.google.com/file/d/1DWbANN_cKg63H4tDXDryY5k-moL4iw-B/view?usp=sharing` and `tracker.py` file
-3. https://github.com/user-attachments/assets/cf24fc9f-0af0-488b-877a-2fd52ec2a6cc
-4. Make sure that these files are stored in the same folder as the `Vehicle Speed Detection.ipynb` file
-5. On running the code the script starts going through the video frame by frame. All these frames are stored in a folder `detected_frames`
-6. After all the frames are detected the video with the speed information of vehicles is downloaded. The result video will be saved by the name `output.mp4` in the folder
+2. Download the following video:
+   https://github.com/user-attachments/assets/cf24fc9f-0af0-488b-877a-2fd52ec2a6cc
+
+3. Copy the path of the video `vehicles.mp4` and paste it in the code.
+
+4. Once that is done run the code and you will get the result video by the name of `vehicles-result.mp4`. It will also download a file named `yolov8x.pt`.
+
+5. The `vehicles-result.mp4` will look like:
+   https://github.com/user-attachments/assets/f100a517-8f49-4891-a82b-bd55f4969834
