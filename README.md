@@ -4,6 +4,7 @@
    - pandas
    - OpenCV
    - YOLO
+   - Supervision
    - Matplotlib
   
 2. Download the following video:
