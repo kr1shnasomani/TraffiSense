@@ -17,4 +17,4 @@
 
 6. The `vehicles-result.mp4` will look like:
 
-   https://github.com/user-attachments/assets/f100a517-8f49-4891-a82b-bd55f4969834
+   https://github.com/roboflow/supervision/assets/26109316/d50118c1-2ae4-458d-915a-5d860fd36f71
