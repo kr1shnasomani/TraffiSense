@@ -1,7 +1,7 @@
 # Vehicle-Speed-Detection
 
 1. Import the following libraries:
-   - pandas
+   - NumPy
    - OpenCV
    - YOLO
    - Supervision
