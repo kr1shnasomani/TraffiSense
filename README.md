@@ -4,7 +4,7 @@ The code implements vehicle detection, tracking, and speed estimation using YOLO
 
 ## Execution Guide:
 
-1. Import the following libraries:
+1. Run the following command line in the terminal:
    ```
    pip install opencv-python numpy supervision tqdm ultralytics
    ```
