@@ -15,13 +15,11 @@ The code implements vehicle detection, tracking, and speed estimation using YOLO
 
 5. Once that is done run the code and you will get the result video by the name of `vehicles-result.mp4`. It will also download a file named `yolov8x.pt`.
 
-6. The resultant video `vehicles-result.mp4` will look like:
+## Model Prediction:
 
    https://github.com/roboflow/supervision/assets/26109316/d50118c1-2ae4-458d-915a-5d860fd36f71
 
 ## Overview:
-
-
 This project uses object detection and tracking techniques to detect vehicles and estimate their speed in a video. The key components include:
 
 1. **Video Processing**: The code reads and processes video frames from a source video file (`vehicles.mp4`), and a target video (`vehicles-result.mp4`) is generated with annotations.
