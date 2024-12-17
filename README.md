@@ -1,15 +1,15 @@
 # Vehicle Speed Detection
-
 The code implements vehicle detection, tracking, and speed estimation using YOLOv8 for object detection, ByteTrack for tracking and OpenCV for video processing, annotating a video with bounding boxes, labels and speed calculations.
 
 ## Execution Guide:
-
 1. Run the following command line in the terminal:
    ```
    pip install opencv-python numpy supervision tqdm ultralytics
    ```
+
+2. Download the YOLOv8 model from the link - **https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8x.pt** 
   
-2. Download the `vehicles.mp4` file
+3. Download the `vehicles.mp4` file
 
 4. Copy the path of the file `vehicles.mp4` and paste it in the code.
 
