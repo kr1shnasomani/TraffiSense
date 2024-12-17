@@ -13,9 +13,9 @@ The code implements vehicle detection, tracking, and speed estimation using YOLO
   
 4. Download the `vehicles.mp4` file
 
-5. Copy the path of the file `vehicles.mp4` and paste it in the code.
+5. Copy the path of the file `vehicles.mp4` and paste it in the code
 
-6. Once that is done run the code and you will get the result video by the name of `vehicles-result.mp4`. It will also download a file named `yolov8x.pt`.
+6. Once that is done run the code and you will get the result video by the name of `vehicles-result.mp4`
 
 ## Model Prediction:
 
