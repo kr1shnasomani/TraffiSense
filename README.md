@@ -7,13 +7,15 @@ The code implements vehicle detection, tracking, and speed estimation using YOLO
    pip install opencv-python numpy supervision tqdm ultralytics
    ```
 
-2. Download the YOLOv8 model from the link - **https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8x.pt** 
+2. Download the YOLOv8 model from the link - **https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8x.pt**
+
+3. Copy paste the path of the model in the code
   
-3. Download the `vehicles.mp4` file
+4. Download the `vehicles.mp4` file
 
-4. Copy the path of the file `vehicles.mp4` and paste it in the code.
+5. Copy the path of the file `vehicles.mp4` and paste it in the code.
 
-5. Once that is done run the code and you will get the result video by the name of `vehicles-result.mp4`. It will also download a file named `yolov8x.pt`.
+6. Once that is done run the code and you will get the result video by the name of `vehicles-result.mp4`. It will also download a file named `yolov8x.pt`.
 
 ## Model Prediction:
 
