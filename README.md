@@ -1,4 +1,4 @@
-# Vehicle Speed Detection
+<h1 align="center">SpeedVision</h1>
 The code implements vehicle detection, tracking, and speed estimation using YOLOv8 for object detection, ByteTrack for tracking and OpenCV for video processing, annotating a video with bounding boxes, labels and speed calculations.
 
 ## Execution Guide:
