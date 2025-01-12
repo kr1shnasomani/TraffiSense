@@ -21,11 +21,11 @@ The code implements vehicle detection, tracking, and speed estimation using YOLO
 
    Input Video:
 
-   ![input](https://github.com/user-attachments/assets/ba445edb-c1fd-4cd1-b067-c2191a23ce60)
+   ![input](https://github.com/user-attachments/assets/87f0202f-2582-47ea-a417-f2f4ef56afeb)
 
    Output Video:
 
-   ![output](https://github.com/roboflow/supervision/assets/26109316/d50118c1-2ae4-458d-915a-5d860fd36f71)
+   ![output](https://github.com/user-attachments/assets/ae44c488-8690-442c-92d2-98cbf0461ceb)
 
 ## Overview:
 This project uses object detection and tracking techniques to detect vehicles and estimate their speed in a video. The key components include:
