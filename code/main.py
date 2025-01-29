@@ -7,8 +7,8 @@ from ultralytics import YOLO
 from collections import defaultdict, deque
 
 # Define video paths
-SOURCE_VIDEO_PATH = '/content/vehicles.mp4'
-TARGET_VIDEO_PATH = '/content/vehicles-result.mp4'
+INPUT_PATH = '/content/vehicles.mp4'
+OUTPUT_PATH = '/content/vehicles-result.mp4'
 CONFIDENCE_THRESHOLD = 0.3
 IOU_THRESHOLD = 0.5
 MODEL_NAME = '/content/yolov8x.pt'
@@ -58,8 +58,8 @@ class ViewTransformer:
 # Initialize components
 view_transformer = ViewTransformer(source=SOURCE, target=TARGET)
 model = YOLO(MODEL_NAME)
-video_info = sv.VideoInfo.from_video_path(video_path=SOURCE_VIDEO_PATH)
-frame_generator = sv.get_video_frames_generator(source_path=SOURCE_VIDEO_PATH)
+video_info = sv.VideoInfo.from_video_path(video_path=INPUT_PATH)
+frame_generator = sv.get_video_frames_generator(source_path=INPUT_PATH)
 
 byte_track = sv.ByteTrack(frame_rate=video_info.fps)
 
@@ -92,7 +92,7 @@ def remap_tracker_ids(original_ids):
     return remapped_ids
 
 # Main video processing logic
-with sv.VideoSink(TARGET_VIDEO_PATH, video_info) as sink:
+with sv.VideoSink(OUTPUT_PATH, video_info) as sink:
     for frame in tqdm(frame_generator, total=video_info.total_frames):
         # Run YOLO model
         result = model(frame, imgsz=MODEL_RESOLUTION, verbose=False)[0]
