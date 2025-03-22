@@ -15,21 +15,22 @@ The system leverages DeepLabv3 ResNet-50 to detect and segment pedestrians and v
 
    Input Image:
 
-   ![image](https://github.com/user-attachments/assets/3dd7a070-af2a-4be8-b3f8-e086786f7e12)
+   ![image](https://github.com/user-attachments/assets/23ae6bf3-7f30-4389-95f5-e3772be3d3f7)
 
    Output Image:
 
    a. `both-resultant-image.png`
 
-   ![both-resultant-image](https://github.com/user-attachments/assets/27e99204-0c63-432b-b1da-cb7005f19278)
+   ![image](https://github.com/user-attachments/assets/4e1fa906-e2f4-4018-8e81-bf3415d715c4)
 
    b. `pedestrian-resultant-image.png`
 
-   ![pedestrian-resultant-image](https://github.com/user-attachments/assets/806b2bd2-69be-40ed-ad8c-cab77c5690cb)
+   ![image](https://github.com/user-attachments/assets/ff1745c7-b5b6-4021-bb9c-3d0b5c8e3577)
 
    c. `vehicle-resultant-image.png`
 
-   ![vehicle-resultant-image](https://github.com/user-attachments/assets/e2e25462-2a1e-4c16-a14f-4610c3eb6979)
+   ![image](https://github.com/user-attachments/assets/1c0b6d28-ce89-4d31-b83d-1ceaa5f1c2c4)
+
 
 ## Overview:
 The given code snippets implement image segmentation for detecting pedestrians and vehicles in an image using a **DeepLabv3 model** with a ResNet-50 backbone, pretrained on the COCO dataset. The scripts are divided into three distinct files based on their functionality:
