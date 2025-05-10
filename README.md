@@ -23,11 +23,13 @@ TraffiSense/
 │   ├── result/
 │   │   ├── number-plate-1.jpg
 │   │   └── number-plate-2.jpg
-│   └── README.md  
+│   ├── README.md
+│   └── requirements.txt
 ├── SpeedVision/
 │   ├── code/
 │   │   └── main.py
-│   └── README.md
+│   ├── README.md
+│   └── requirements.txt
 ├── StreetScanner/
 │   ├── code/
 |   │   ├── both.py
@@ -39,6 +41,7 @@ TraffiSense/
 |   │   ├── both-resultant-image.png
 │   │   ├── pedestrian-resultant-image.png
 │   │   └── vehicle-resultant-image.png
-│   └── README.md
+│   ├── README.md
+│   └── requirements.txt
 └── README.md
 ```
